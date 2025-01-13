@@ -4,9 +4,9 @@ import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import { lusitana } from '@/app/ui/fonts';
 import { Suspense } from 'react';
 import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton } from '@/app/ui/skeletons';
- 
+
 export default async function Page() {
-  // const latestInvoices = await fetchLatestInvoices();  
+  // const latestInvoices = await fetchLatestInvoices();
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
